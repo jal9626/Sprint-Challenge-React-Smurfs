@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 75%;
+  margin-top: 15px;
+  background: rgb(192, 24, 5);
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #88CCFF;
+  margin: 5%;
+}
+
+.Smurf {
+  color: #88CCFF;
+  border: solid 2px black;
+  width: 50%;
+  background: rgb(192, 24, 5);
+  margin-top: 15px;
+}
+
+h3 {
+  margin-right: 50%;
+}
+
+.smurf-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background: #88CCFF;
+  width: 125%;
+  border: solid 1px black;
+  margin-left: 0%;
+  color: rgb(251, 255, 0);
+}
+
+.h1-wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.h1-wrapper a {
+  text-decoration: none;
+}
+
+.SmurfForm form button {
+    background: rgb(192, 24, 5);
+    height: 30px;
+    color: #88CCFF;
+    margin-top: 8px;
+}
+
+span  {
+  cursor: pointer;
+}
+
+.delete {
+  display: flex;
+  justify-content: flex-end;
+}
