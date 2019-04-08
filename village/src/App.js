@@ -5,6 +5,7 @@ import axios from 'axios';
 import './Styles.css';
 import SmurfForm from './components/SmurfForm';
 import Smurfs from './components/Smurfs';
+import Smurf from './components/Smurf';
 
 class App extends Component {
   constructor(props) {
@@ -53,6 +54,12 @@ class App extends Component {
           render={props => (
             <Smurfs {...props} smurfs={this.state.smurfs} />
           )}
+        />  
+        <Route 
+          path='/smurfs/:id'
+          render={props => (
+            <Smurf {...props} smurfs={this.state.smurfs} updateSmurfs={this.updateSmurfs} />
+          )}    
         />  
       </div>
     );

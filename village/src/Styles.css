@@ -59,3 +59,12 @@ h1 {
     color: #88CCFF;
     margin-top: 8px;
 }
+
+span  {
+  cursor: pointer;
+}
+
+.delete {
+  display: flex;
+  justify-content: flex-end;
+}
